@@ -184,6 +184,7 @@ h3{
 .step-active{
     border: 5px solid var(--color-secondary);
 }
+}
 .seccion {
     padding: 50px 20px;
     background-color: var(--color-primary);
@@ -244,4 +245,5 @@ h3{
     box-shadow: 0 4px 12px rgba(24, 14, 26, 0.9);
     
 }
+
 
