@@ -246,4 +246,109 @@ h3{
     
 }
 
+.tercera_parte{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgb(90, 40, 100);
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
 
+.titulo-seccion2{
+    margin-top: 30px;
+    color: var(--color-light);
+}   
+
+.habilidades-contenedor {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+ 
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--morado-oscuro);
+}
+ 
+
+.barra-fondo {
+    background-color: rgba(83, 27, 68, 0.15);
+    border-radius: 999px;
+    height: 12px;
+    overflow: hidden;
+}
+
+.barra-progreso {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(75deg, var(--morado-oscuro), var(--morado-claro));
+    box-shadow: 0 4px 6px -1px rgba(83, 27, 68, 0.5);
+}
+
+.barra-90 { width: 90%; }
+.barra-85 { width: 85%; }
+.barra-88 { width: 88%; }
+.barra-92 { width: 92%; }
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;      
+
+}
+th, td{
+    border: 1px solid var(--color-secondary);
+    padding: 12px;
+    text-align: left;
+}
+.Section-tittle{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+    text-align: center;
+}      
